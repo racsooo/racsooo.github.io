@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'katibehregular';
+    src: url('katibeh-regular-webfont.woff2') format('woff2'),
+         url('katibeh-regular-webfont.woff') format('woff'),
+         url('katibeh-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'k2dbold';
+    src: url('k2d-bold-webfont.woff2') format('woff2'),
+         url('k2d-bold-webfont.woff') format('woff'),
+         url('k2d-bold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'k2dbold_italic';
+    src: url('k2d-bolditalic-webfont.woff2') format('woff2'),
+         url('k2d-bolditalic-webfont.woff') format('woff'),
+         url('k2d-bolditalic-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'k2ditalic';
+    src: url('k2d-italic-webfont.woff2') format('woff2'),
+         url('k2d-italic-webfont.woff') format('woff'),
+         url('k2d-italic-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'k2dregular';
+    src: url('k2d-regular-webfont.woff2') format('woff2'),
+         url('k2d-regular-webfont.woff') format('woff'),
+         url('k2d-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+body {
+  background-color: powderblue;
+  margin:5%;
+}
+h1 {
+  margin:30px;
+  padding: 30px;
+  font-family: 'katibehregular';
+  font-size: 100px;
+  font-weight: normal;
+}
+strong {
+  color: red;
+  font-family: 'katibehregular';
+  font-size: 50px;
+  font-weight: normal;
+  padding: 30px;
+  margin:30px;
+}
+
+em {
+  font-family: 'k2dbold';
+  font-size: 20px;
+  font-style: normal;
+}
+
+p {
+  font-family: 'k2dregular';
+  font-size: 14px;
+  font-style: normal;
+}
