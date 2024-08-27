@@ -50,7 +50,8 @@
 
 
 body {
-  background-color: powderblue;
+  background-color: floralwhite;
+  color: #011f0a;
   margin:5%;
 }
 h1 {
@@ -61,7 +62,6 @@ h1 {
   font-weight: normal;
 }
 strong {
-  color: red;
   font-family: 'katibehregular';
   font-size: 50px;
   font-weight: normal;
@@ -79,4 +79,11 @@ p {
   font-family: 'k2dregular';
   font-size: 14px;
   font-style: normal;
+}
+
+button {
+  font-family: 'katibehregular';
+  font-size: 40px;
+  padding: 10px 30px;
+  background-color: #cc6ddf;
 }
