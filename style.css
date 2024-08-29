@@ -82,6 +82,7 @@ body {
 
   strong {
     font-size: 90px;
+    padding-left: 0px;
   }
 }
 
@@ -91,6 +92,7 @@ body {
   }
   strong {
     font-size: 14vw;
+    padding-left: 20px;
   }
 }
 
@@ -128,7 +130,7 @@ p {
   padding: 0px 20px;
 }
 
-button {
+#home-work {
   font-family: 'katibehregular';
   font-size: 40px;
   width: 100%;
@@ -138,11 +140,26 @@ button {
   border-width: 3px;
 }
 
+button {
+  font-family: 'katibehregular';
+  font-size: 40px;
+  width: 100%;
+  background-color: grey #cc6ddf;
+  border-radius: 10px;
+  border-width: 3px;
+  margin-bottom: 15px;
+}
 
+.half {
+  width:50%;
+  float: left;
+  padding: 5px;
+}
 
 img {
   max-width: 50%;
   height: auto;
   width: auto;
   max-height: 300px;
+  border-radius: 10px;
 }
