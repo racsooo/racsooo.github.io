@@ -47,43 +47,102 @@
 
 }
 
-
+* {
+  box-sizing: border-box;
+}
 
 body {
   background-color: floralwhite;
   color: #011f0a;
-  margin:5%;
 }
+
+[class*="col-"] {
+  width: 100%;
+  float: left;
+  padding: 15px;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+  h1 {
+    font-size: 120px;
+  }
+
+  strong {
+    font-size: 90px;
+  }
+}
+
+@media only screen and (max-width: 599px) {
+  h1 {
+    font-size: 20vw;
+  }
+  strong {
+    font-size: 14vw;
+  }
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
 h1 {
-  margin:30px;
-  padding: 30px;
   font-family: 'katibehregular';
-  font-size: 100px;
   font-weight: normal;
+  line-height: 0;
+  padding-left: 20px;
 }
+
 strong {
   font-family: 'katibehregular';
-  font-size: 50px;
   font-weight: normal;
-  padding: 30px;
-  margin:30px;
+  line-height: 90%;
 }
 
 em {
   font-family: 'k2dbold';
   font-size: 20px;
   font-style: normal;
+  padding-left: 20px;
 }
 
 p {
   font-family: 'k2dregular';
-  font-size: 14px;
+  font-size: 18px;
   font-style: normal;
+  padding: 0px 20px;
 }
 
 button {
   font-family: 'katibehregular';
   font-size: 40px;
-  padding: 10px 30px;
-  background-color: #cc6ddf;
+  width: 100%;
+  height: 150px;
+  background-color: grey #cc6ddf;
+  border-radius: 10px;
+  border-width: 3px;
+}
+
+
+
+img {
+  max-width: 50%;
+  height: auto;
+  width: auto;
+  max-height: 300px;
 }
