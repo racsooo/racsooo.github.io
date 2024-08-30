@@ -59,7 +59,7 @@ body {
 [class*="col-"] {
   width: 100%;
   float: left;
-  padding: 15px;
+  padding: 5px;
 }
 
 @media only screen and (min-width: 600px) {
@@ -120,7 +120,9 @@ em {
   font-family: 'k2dbold';
   font-size: 20px;
   font-style: normal;
-  padding-left: 20px;
+  padding: 15px 20px;
+display: inline-block;
+  line-height: 120%;
 }
 
 p {
@@ -128,6 +130,7 @@ p {
   font-size: 18px;
   font-style: normal;
   padding: 0px 20px;
+    line-height: 130%;
 }
 
 #home-work {
@@ -156,10 +159,58 @@ button {
   padding: 5px;
 }
 
-img {
-  max-width: 50%;
+.link {
   height: auto;
-  width: auto;
-  max-height: 300px;
+  width: 100%;
   border-radius: 10px;
+  display: block;
+}
+
+#website {
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+}
+
+
+.link-container {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  left: 0;
+  right:0;
+  bottom:0;
+  background-color: #FFFFFF90;
+  overflow: hidden;
+  width: 0;
+  height: calc(100% - 2*5px);
+  margin: 5px;
+  border-radius: 10px;
+  transition: .5s ease;
+  display: block;
+}
+
+.link-container:hover .overlay {
+  width: calc(100% - 2*5px);
+}
+
+
+.link-text {
+  white-space: nowrap;
+  position: absolute;
+  overflow: hidden;
+  bottom: 0;
+  left: 10px;
+  background-color: floralwhite;
+  color: black;
+  padding: 16px 16px;
+  border-radius: 5px;
+}
+
+
+img {
+  height: auto;
+  width: 100%;
 }
