@@ -224,4 +224,25 @@ button:active {
 img {
   height: auto;
   width: 100%;
+  padding: 5px;
 }
+
+.gallery-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.gallery-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (min-width: 1200px) {
+  .gallery-column{
+    flex-direction: row;
+  }
+  }
