@@ -147,20 +147,21 @@ button {
   font-family: 'katibehregular';
   font-size: 40px;
   width: 100%;
-  background-color: grey #cc6ddf;
+  color: floralwhite;
+  background-color:  #cc6ddf;
   border-radius: 10px;
   border-width: 3px;
   margin-bottom: 15px;
-  border-color: black;
+  border-color: floralwhite;
   border-style: solid;
 }
 
 button:hover {
-  border-color: grey;
+  border-color: white;
 }
 
 button:active {
-  border-color: white;
+  border-color: lightgrey;
 }
 
 .half {
