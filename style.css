@@ -1,50 +1,45 @@
 @font-face {
     font-family: 'katibehregular';
-    src: url('katibeh-regular-webfont.woff2') format('woff2'),
-         url('katibeh-regular-webfont.woff') format('woff'),
-         url('katibeh-regular-webfont.ttf') format('truetype');
+    src: url('fonts/katibeh-regular-webfont.ttf') format('woff2'),
+         url('fonts/katibeh-regular-webfont.ttf') format('woff'),
+         url('fonts/katibeh-regular-webfont.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'k2dbold';
-    src: url('k2d-bold-webfont.woff2') format('woff2'),
-         url('k2d-bold-webfont.woff') format('woff'),
-         url('k2d-bold-webfont.ttf') format('truetype');
-    font-weight: normal;
+    font-family: 'BerlinGrotesk';
+    src: url('fonts/BerlinGrotesk-Regular.otf') format('opentype');
+    font-weight: 300;
     font-style: normal;
-
 }
 
 @font-face {
-    font-family: 'k2dbold_italic';
-    src: url('k2d-bolditalic-webfont.woff2') format('woff2'),
-         url('k2d-bolditalic-webfont.woff') format('woff'),
-         url('k2d-bolditalic-webfont.ttf') format('truetype');
-    font-weight: normal;
+    font-family: 'BerlinGrotesk';
+    src: url('fonts/BerlinGrotesk-Thin.otf') format('opentype');
+    font-weight: 100;
     font-style: normal;
-
 }
 
 @font-face {
-    font-family: 'k2ditalic';
-    src: url('k2d-italic-webfont.woff2') format('woff2'),
-         url('k2d-italic-webfont.woff') format('woff'),
-         url('k2d-italic-webfont.ttf') format('truetype');
-    font-weight: normal;
+    font-family: 'BerlinGrotesk';
+    src: url('fonts/BerlinGrotesk-Light.otf') format('opentype');
+    font-weight: 200;
     font-style: normal;
-
 }
 
 @font-face {
-    font-family: 'k2dregular';
-    src: url('k2d-regular-webfont.woff2') format('woff2'),
-         url('k2d-regular-webfont.woff') format('woff'),
-         url('k2d-regular-webfont.ttf') format('truetype');
-    font-weight: normal;
+    font-family: 'BerlinGrotesk';
+    src: url('fonts/BerlinGrotesk-Medium.otf') format('opentype');
+    font-weight: 400;
     font-style: normal;
+}
 
+@font-face {
+    font-family: 'BerlinGrotesk';
+    src: url('fonts/BerlinGrotesk-Bold.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
 }
 
 * {
@@ -52,7 +47,7 @@
 }
 
 body {
-  background-color: floralwhite;
+  background-color: #fffafa;
   color: #011f0a;
 }
 
@@ -117,18 +112,19 @@ strong {
 }
 
 em {
-  font-family: 'k2dbold';
+  font-family: 'BerlinGrotesk';
   font-size: 20px;
   font-style: normal;
+  font-weight: 500;
   padding: 15px 20px;
 display: inline-block;
   line-height: 120%;
 }
 
 p {
-  font-family: 'k2dregular';
+  font-family: 'BerlinGrotesk';
   font-size: 18px;
-  font-style: normal;
+  font-weight: 300;
   padding: 0px 20px;
     line-height: 130%;
 }
@@ -147,12 +143,12 @@ button {
   font-family: 'katibehregular';
   font-size: 40px;
   width: 100%;
-  color: floralwhite;
+  color: #fffafa;
   background-color:  #cc6ddf;
   border-radius: 10px;
   border-width: 3px;
-  margin-bottom: 15px;
-  border-color: floralwhite;
+  padding-bottom: 15px;
+  border-color: #fffafa;
   border-style: solid;
 }
 
